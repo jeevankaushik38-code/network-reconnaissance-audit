@@ -1,0 +1,17 @@
+# Nmap 7.991 scan initiated Fri Oct  9 18:06:56 2026 as: nmap -O -F -oN C:\\Users\\user\\os-detection-localhost.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00032s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+Device type: general purpose
+Running: Microsoft Windows 10
+OS CPE: cpe:/o:microsoft:windows_10
+OS details: Microsoft Windows 10 1809 - 21H2
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct  9 18:06:58 2026 -- 1 IP address (1 host up) scanned in 1.52 seconds
