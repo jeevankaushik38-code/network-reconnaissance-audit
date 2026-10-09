@@ -1,0 +1,13 @@
+# Nmap 7.991 scan initiated Fri Oct  9 18:02:40 2026 as: nmap -sU -F -oN C:\\Users\\user\\udp-localhost.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00023s latency).
+Not shown: 94 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+123/udp  open|filtered ntp
+137/udp  open|filtered netbios-ns
+500/udp  open|filtered isakmp
+1900/udp open|filtered upnp
+4500/udp open|filtered nat-t-ike
+5353/udp open|filtered zeroconf
+
+# Nmap done at Fri Oct  9 18:02:42 2026 -- 1 IP address (1 host up) scanned in 1.74 seconds
