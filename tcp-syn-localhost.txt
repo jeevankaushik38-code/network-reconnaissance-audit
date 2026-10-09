@@ -1,0 +1,11 @@
+# Nmap 7.991 scan initiated Fri Oct  9 17:57:36 2026 as: nmap -sS -F -oN C:\\Users\\user\\tcp-syn-localhost.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00035s latency).
+Not shown: 96 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+
+# Nmap done at Fri Oct  9 17:57:37 2026 -- 1 IP address (1 host up) scanned in 0.58 seconds
